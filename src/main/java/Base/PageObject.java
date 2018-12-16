@@ -20,9 +20,10 @@ public class PageObject {
         }
     }
 
-    public void selectByIndex(WebElement element)
+    public void selectByIndex(WebElement element, int ind)
     {
         Select s = new Select(element);
+        s.selectByIndex(ind);
     }
 }
 
