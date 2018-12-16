@@ -24,6 +24,7 @@ public class PageObject {
     {
         Select s = new Select(element);
         s.selectByIndex(ind);
+        logger.log(LogStatus.PASS,"Selected by index");
     }
 }
 
